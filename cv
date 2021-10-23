@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+</head>
+<body style="background-color: rgb(115, 255, 80); color: rgb(15, 15, 15);">
+    <h1 style="text-align: center; ;">CURRICULUM VITAE</h1>
+    <hr width="75%">
+<br><br>
+<center>
+<img src="photo_arlan.jpg" style="display: block;" width="200px">
+</center>
+<br>
+<h2>BIODATA DIRI</h2>
+<ul>
+    <li> Nama   : Ade Arlan</li>
+    <li> TTL    : Sambali, 14 Juli 2004</li>
+    <li> Alamat : Sambali Barat</li>
+    <li> Email  : adearlan59@gmail.com</li>
+    <li> gol.darah   : O</li>
+    <li> Hobi   : volly dan takraw</li>
+    <li> Contact Person   : 085395734570</li>
+</ul>
+<br>
+<h2>PENDIDIKAN</h2>
+<table border="2" width="40%">
+    <thead>
+        <tr>
+            <th>Nama Sekolah</th>
+            <th>Tahun </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>SDI Impres Sambali</td>
+            <td>2009-2015</td>
+        </tr>
+        <tr>
+            <td>SMP NEGERI 2 Pasimarann</td>
+            <td>2015-2018</td>
+        </tr>
+        <tr>
+            <td>SMK Darul Arqom</td>
+            <td>2018-2021</td>
+        </tr>
+        <tr>
+            <td>STT Terpadu Nurul Fikri</td>
+            <td>2021-sekarang</td>
+        </tr>
+
+    </tbody>
+</table>
+
+ 
+</body>
+</html>
