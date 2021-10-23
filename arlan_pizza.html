@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizza Arlan</title>
+</head>
+
+<body>
+    <h3>
+        Pizza Q | Pizza dari Makassar
+    </h3>
+
+    <p>
+        Dalam Merayakan Hari Kemerdekaan, Maka Anda Dapat Membuat Kreasi Pizza Sesuai Selera!
+
+    </p>
+    <p> Data Customer </p>
+
+
+    <form action="http://blackgoosebistro.com/pizza.php" method="POST">
+
+
+        Nama Lengkap : <input type="text" placeholder="Name" name="nama pemesan">
+        <br>
+        Alamat Pengiriman : <input type="text" placeholder="Address" name="alamat">
+        <br>
+        Nomor Telepon Aktif : <input type="number" placeholder="Telphone" name="telepon" />
+        <br>
+        Email : <input type="text" placeholder="Email" name="email" />
+
+        <br>
+        Instruksi Orderan :
+        <br>
+
+        <textarea style="resize:none" name="instructions" maxlength="400" cols="40" rows="8">
+        </textarea>
+
+        <h4>
+            Bikin Pizza Untukmu :
+        </h4>
+
+        <p>
+            Mari Bikin Pizza!
+        </p>
+
+        <p>
+            Crust (Pilih Satu Saja) :
+        </p>
+
+        <input type="radio" name="crust" value="Classic white" /> Classic white <br>
+        <input type="radio" name="crust" value="Multigrain" /> Multigrain <br>
+        <input type="radio" name="crust" value="Cheese-stuffed-crust" /> Cheese-stuffed-crust <br>
+        <input type="radio" name="crust" value="Gluten-free" />Gluten-free <br>
+
+        <p>
+            Toping (Bebas Pilih Sesukamu):
+        </p>
+
+        <input type="checkbox" name="toppings[]" value="Red sauce" /> Ikan Tiger <br>
+        <input type="checkbox" name="toppings[]" value="White sauce" /> Tomat <br>
+        <input type="checkbox" name="toppings[]" value="Mozzarella Cheese" /> Kol <br>
+        <input type="checkbox" name="toppings[]" value="Pepperoni" /> Saus Tiram <br>
+        <input type="checkbox" name="toppings[]" value="Mushrooms" /> Saus Barbeque <br>
+        <input type="checkbox" name="toppings[]" value="Peppers" />Daging Sapi<br>
+        <input type="checkbox" name="toppings[]" value="Anchovies" /> Ayam <br>
+
+        <p>
+           Jumlah<br>
+            Berapa banyak pizza yang kamu mau : <select name="pizzas" size="1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+        <p>
+            <input type="submit" value="Mana Pizzaku?" />
+            <input type="reset">
+        </p>
+        </p>
+    </form>
+
+</body>
+
+</html>
